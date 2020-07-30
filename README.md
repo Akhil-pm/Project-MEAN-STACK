@@ -5,6 +5,7 @@ This project is designed for trivandrum district adminstration to give live upda
 -guest user can view the list of live updates
 -logged in user can submit an application form for permission  to travel to trivandrum.
 - Admin can manually approve the applications submitted by user,add,update and delete details about containment zones.
+-On approval from admin an email notification will be sent to the applicants.In this project a dummy email and smtp server is used for testing.(To send email in real,use real email and password)
 
 -Mongodb atlas is used to store data
 -Person who sign-up using email "admin123@gmail.com" will be assigned the role admin(already signed  up)

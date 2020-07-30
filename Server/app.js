@@ -308,6 +308,7 @@ async function sendMail(user,callback)
 {
     console.log(user.token_no)
     var transporter = nodemailer.createTransport({
+        // service: "Gmail",
         host: "smtp.mailtrap.io",                    //mailtrap is used for testing purpose only
         port:587,                                    //To send mail to user in real use real email and password
         secure: false,
